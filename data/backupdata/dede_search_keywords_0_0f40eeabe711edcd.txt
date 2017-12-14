@@ -1,0 +1,1 @@
+INSERT INTO `dede_search_keywords` VALUES('1','是','是','2','16','1441805350','0','0');

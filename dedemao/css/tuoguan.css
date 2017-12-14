@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+.tr { text-align:right;}
+.tl { text-align:left;}
+.center { text-align:center;}
+.fl { float:left;}
+.fr { float:right;}
+.fw{ font-family:"微软雅黑","宋体";}
+.pa{ position:absolute;}
+.pr{ position:relative}
+.mt8{ margin-top:8px;}
+.font14 { font-size:14px; font-weight:bold;}
+.logo{ float:left;}
+
+.banner2 a { height:452px; background:url(../images/tg_banner.jpg) no-repeat center top; overflow:hidden; display:block;}
+
+.budengyu{background:#fff;}
+.site-wrp{ width: 1000px; margin: 0 auto; padding-top:44px; }
+.site-wrp h2{ display: block; height: 104px; overflow: hidden; text-align: center; color: #3a3a3a; font-size: 20px; font-weight: normal;}
+.site-wrp h2 i{ display: block; font-style: normal; color: #ff4a00; font-size: 28px; line-height: 36px; margin-bottom:21px;}
+.site-wrp h2 i img{ vertical-align: middle;}
+.ayu-wrp{ display: block; position: relative; background: url(../images/areyou-img.jpg) no-repeat center top; height: 283px; padding-top: 109px;}
+.ayu-wrp a{ display: block; color: #7a7a7a; font-size: 16px; font-weight:bold;}
+.ayu-wrp span{ font-size: 30px; font-family:"Comic Sans MS","Arial Narrow", arial; vertical-align: middle; display: inline-block; width: 36px; text-align: center; padding-right: 30px; vertical-align: middle;}
+.ayu-wrp li{ display: block; padding-left: 56px; width: 414px;float: left; padding-right: 30px; height: 94px; line-height:40px;}
+.ayu-wrp li.fr{ text-align: right;}
+.ayu-wrp li.fr span{ display: block; float: right; padding-right: 0; padding-left: 15px;}
+.ayu-wrp li a:hover{ color: #f26b17; text-decoration: none;}
+.ayu-wrp li.lst{ margin-top: -2px;}
+
+
+.list1 { padding-top:51px; width:960px; margin:0 auto; height:525px; background:url(../images/ico2.gif) no-repeat 579px 227px;}
+.yiwen { padding:63px 0 0 30px; width:295px; float:left}
+.uls01 { height:197px; background:url(../images/ico4.gif) no-repeat left bottom}
+.uls01 li { height:38px;padding-left:18px; background:url(../images/ico3.gif) no-repeat 0 15px; font:17px "微软雅黑"; color:#222222;line-height:38px;}
+.yiwen p { font:22px "微软雅黑"; color:#ef8200; font-weight:bold; padding-top:43px; line-height:42px;}
+
+.shengq { background:url(../images/ico55.gif) no-repeat; width:295px; height:464px; float:right; margin-top:1px; padding:25px 0 0 32px;}
+.shengq h4 { height:35px;font:15px "微软雅黑"; color:#fff;line-height:35px;}
+.shengq p { height:123px; padding-top:18px; text-align:center; font:23px "微软雅黑"; color:#fff; font-weight:bold;}
+.shengq p span { display:block; font-size:33px;}
+.biao { padding-top:29px;} 
+.biao li { color:#fbe4c7; height:34px; overflow:hidden;}
+.biao span { display:inline-block; width:88px; text-align:right; font-size:14px; color:#fff; padding-right:10px;}
+.biao .k01 { width:134px; height:20px; line-height:20px; background:#a75b00; color:#fff; border:0; margin-right:9px;}
+.btn1 { padding:18px 0 0 52px;}
+
+.s_ban{background:#f08300 url(../images/nixi.jpg) no-repeat center top;font-family:"微软雅黑";}
+.s_banm{height:191px;width:968px;margin:0 auto;}
+.s_banm p{top:62px;right:78px;}
+.s_banm p a{display:block;}
+.s_banm p span{display:block;color:#fdeedd;font-size:14px;padding-top:3px;                  }
+.s_banm p b{color:#fff;display:block;font-size:26px;}
+
+
+.exp{height:769px;width: 968px; margin: 0 auto;}
+.exp h3{font-size:40px;line-height:40px;color:#f08300;text-align:center;background:url(/dedemao/images/tl_s.jpg) no-repeat center bottom;padding:0 0 65px;}
+.exp h3 span{color:#000;font-size:30px;font-weight:normal;display:block;line-height:30px;padding:70px 0 20px;}
+.exp ul{background:url(/dedemao/images/exp_01.jpg) no-repeat 6px center;padding:5px 0 0 468px;height:486px;margin-top:23px;}
+.exp li{border-bottom:1px dashed #ccc;padding:7px 0; min-height:30px; height:auto;}
+.exp li b{float:left;color:#f08300;font-size:22px;font-family:Arial, Helvetica, sans-serif;display:inline-block;padding:2px 15px 0 0;}
+.exp li p{float:left;display:inline-block;width:460px;color:#2e2e2e;font-size:16px !important;line-height:30px;}
+.exp .wb{border:none;}

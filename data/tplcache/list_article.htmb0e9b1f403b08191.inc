@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("field","",262,281);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",282,308);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",353,382);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",426,484);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",881,916);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",1495,1524);
+$z[5][4]['name']="position";
+$z[6]=Array("type","[field:typename/]",1637,1677);
+$z[7]=Array("channel","\r\n            <dd><a href=\"[field:typeurl/]\"> [field:typename/]</a></dd>\r\n            ",1734,1958);
+$z[7][4]['type']="son";
+$z[7][4]['currentstyle']="<dd><a href='~typelink~' class='h'>~typename~</a></dd>";
+$z[8]=Array("arclist","\r\n            <dd><a href=\"[field:arcurl/]\">[field:title/]</a></dd>\r\n            ",2124,2272);
+$z[8][4]['typeid']="8";
+$z[8][4]['flag']="c";
+$z[8][4]['titlelen']="42";
+$z[8][4]['row']="5";
+$z[9]=Array("arclist","\r\n            <dd><a href=\"[field:arcurl/]\">[field:title/]</a></dd>\r\n            ",2438,2591);
+$z[9][4]['typeid']="8";
+$z[9][4]['titlelen']="42";
+$z[9][4]['row']="5";
+$z[9][4]['orderby']="click";
+$z[10]=Array("include","",3760,3798);
+$z[10][4]['filename']="contact.htm";
+$z[11]=Array("type","[field:typename/]",4066,4106);
+$z[12]=Array("list","\r\n            <dd><span>[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</span><a target=\"_blank\" href=\"[field:arcurl/]\">[field:title/]</a>\r\n                [field:global name=autoindex runphp=\"yes\"]\r\n                if(@me%5==0){\r\n                    @me=\"<dd class='line'></dd>\";\r\n                }else{\r\n                    @me=\"\";\r\n                }\r\n                [/field:global]\r\n            </dd>\r\n            ",4170,4625);
+$z[12][4]['pagesize']="20";
+$z[13]=Array("pagelist","",4791,4869);
+$z[13][4]['listitem']="info,index,end,pre,next,pageno,option";
+$z[13][4]['listsize']="5";
+$z[14]=Array("include","",5096,5133);
+$z[14][4]['filename']="footer.htm";
+
+?>

@@ -1,0 +1,2 @@
+﻿// JavaScript Document
+document.write("<a href='http://wpa.qq.com/msgrd?v=3&uin=523680272&site=www.qewang.com&menu=yes' target='_blank' title='建站咨询'><img src='/dedemao/images/pa.gif'  border='0' alt='建站咨询' width='23' height='16'/> 建站咨询</a> <a href='http://wpa.qq.com/msgrd?v=3&uin=523680272&site=www.qewang.com&menu=yes' target='_blank' title='建站咨询'><img src='/dedemao/images/pa.gif'  border='0' alt='建站咨询' width='23' height='16'/> 建站咨询</a>");

@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+.w1005{ position: relative; width: 1005px; margin: 0 auto;}
+.fz-23 {
+font-size: 23px;
+}
+.fw-bd {
+font-weight: bold;
+}
+
+.color-00, .color-00 a {
+color: #000000;
+}
+.mt25 {
+margin-top: 25px;
+}
+.fz-16 {
+font-size: 16px;
+}
+
+.fn-left {
+float: left;
+}
+.fn-left, .fn-right {
+display: inline;
+}
+
+.mt30 {
+margin-top: 30px;
+}
+
+
+.fn-clear:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+
+.fz-25 {
+font-size: 25px;
+}
+.fn-left {
+float: left;
+}
+.fn-right {
+float: right;
+}
+.fn-left, .fn-right {
+display: inline;
+}
+
+.color-ff, .color-ff a {
+color: #fff;
+}
+
+.fn-clear {
+zoom: 1;
+}
+
+.fz-20 {
+font-size: 20px;
+}
+.fw-bd {
+font-weight: bold;
+}
+.tac {
+text-align: center;
+}
+
+.mt20 {
+margin-top: 20px;
+}
+
+/*祈网托管，客户竞价取得的成绩*/
+.tuog-progress{ background-color:#f0f0f0; padding-bottom:45px;  padding-top:27px; }
+.tuog-progress h2{}
+.tuog-pro-main  dl{margin-right:56px; width:293px;}
+.tuog-pro-main dl dd{ padding:11px 25px 0px; line-height:26px;}
+.tuog-pro-main dl dd strong{ color:#ff6600}
+.tuog-pro-main  dl.last{ margin-right:0px;}
+/*限时大酬宾*/
+.onSale{ position: relative; width:985px; height:214px; border: solid 7px #0661bf}
+.onSale dl dt{ margin-top:18px; margin-left:19px;}
+.onSale dl dd{margin-left:36px; margin-top:10px; line-height:30px; color:#0f0f0f}
+.onSale h3{ margin-top:44px; color:#0f0f0f; font-size:17px;}
+.special-onSale{ position: absolute; right:127px; bottom:88px;}
+.onSale a{ display: block; width:374px; height:40px; color:#fff; background-color:#1d6fc4; line-height:40px;  position:absolute; right:198px; bottom:28px; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -ms-border-radius:30px; -o-border-radius:30px;}
+.onSale a:hover{ color:yellow;}
+.miss{ position: absolute; bottom:-77px; right:17px;}
+
+/*烦恼一*/
+.fannao1{ background-color:#fff}
+.title2{ }
+.title2 dt{ margin-left:55px; margin-right:12px;padding-top:53px;}
+.title2 dd{ padding-top:40px;color:#808080;  line-height:37px;}
+.title2 dd strong{ font-size:40px; color:#010101;}
+.title2 dd font{ color:#e61314;}
+
+.noSupervisor dl{ margin-bottom:18px;}
+.noSupervisor dl dt{width:57px; height:44px; font-size:25px; line-height:44px; color:#fff; padding-right:5px; }
+.noSupervisor dl dd{ background-color:#f0f0f0; height:44px; line-height:44px;  text-indent:22px; margin-left:4px; width:350px; font-size:23px; color:#1c1c1c}
+.noSupervisor dl dd span{ color:#eb4343}
+.noSupervisor .dlOdd dt{ background-color:#94bdf1; text-align: right; font-style: italic; }
+
+.noSupervisor .dlEven dt{ background-color:#4085ce; text-align: right; font-style: italic; }
+
+.haveSupervisor h3{ padding-top:10px;}
+.haveSupervisor dl dd a{ margin:30px auto 37px; color: #fff; display: block; width:186px; height:47px; background-color:#e61314; border-radius:30px; -webkit-border-radius:30px; text-align:center; -moz-border-radius:30px; -ms-border-radius:30px; -o-border-radius:30px; line-height:47px; }
+.haveSupervisor dl dd a:hover{ color:yellow !important;}
+.employ h3 strong{ color:#0661bf; margin-left:40px;}
+.employ dl{ margin-top:40px; margin-bottom:30px;}
+.employ dl dt{ margin-left:11px;}
+.employ dl dd{ margin-right:11px;}
+
+/*第二板块*/
+.fannao2{ background-color:#f0f0f0; padding-bottom:40px;}
+.fannao2 .img{ background-color:#fff}
+.fannao2 .img img{ padding:20px 25px}
+.fourStep ul{ width:282px; margin-top:25px; margin-right:12px;}
+.fourStep ul li{ color:#010101; line-height:25px; padding-top:48px; padding-bottom:23px;  height:100px;}
+.fourStep ul.left li{ background:url(../images/jingjia/jingjia-tuog_56.jpg) 250px center no-repeat; padding-right:44px; padding-bottom:23px; border-bottom: solid 1px #919191}
+.fourStep div{ margin-top:40px;}
+.fourStep ul.right{ margin-left:9px;}
+.fourStep ul.right li{background:url(../images/jingjia/jingjia-tuog_56.jpg) 10px center no-repeat; padding-left:50px; border-bottom: solid 1px #919191}
+.fannao2 a{ background-color:#e61314; width:238px; height:44px; margin-top:50px; line-height:44px; display:block; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -ms-border-radius:30px; -o-border-radius:30px; margin:0 auto;  }
+
+/*第三板块*/
+.fannao3{ padding-bottom:35px; background:#fff;}
+.dataCompare .left p{ line-height:28px; margin-top:10px; margin-left:25px;}
+.dataCompare .right{ margin-top:64px; margin-right:15px;}
+.fannao3 dl{ margin-left:18px; margin-top:10px;}
+.fannao3 dl dt{ color:#1e1e1e; font-size:18px;}
+.fannao3 dl dd{ margin-top:5px;}
+.fannao3 dl dd p{ line-height:28px;}
+.fannao3 dl dd p strong{ color:#ff5700;}
+
+.tuoguan-result p{ font-size:35px; margin-left:10px;}
+.tuoguan-result p span{ color:#ce3015;}
+.tuoguan-result a{ margin-right:10px;}
+
+.textDecoration{margin:10px 10px 0px; line-height:28px; color:#1e1e1e; }
+.textDecoration strong{ color:#ff5700;}
+
+/*第四模块*/
+.fannao4{ background-color:#f0f0f0; padding-bottom:20px;}
+.fannao4 .reason ul{ margin-left:10px; width:492px; font-size:15px;}
+.fannao4 .reason ul li{ margin-bottom:5px; line-height:26px;}
+.fannao4 .reason ul li i{ margin-right:10px; color:#e61314;}
+.fannao4 .reason ul li strong{color:#ff7c00}
+.cooperationProcess{  background-color:#fff; margin-top:20px;}
+.cooperationProcess img{ padding-top:14px; padding-bottom:11px;}
+
+/*关于竞价的更多知识*/
+.bjbai{ background:#fff !important; padding:15px 0;}
+.moreKnowledge{ margin-top:36px; margin-bottom:36px; border: solid 3px #ff7926; padding-bottom:36px;}
+.moreKnowledge div p{ margin-left:5px; margin-top:5px; width:128px; height:28px; border: solid 1px #ff995a; font-family:"宋体"; line-height:28px; background-color:#ff7926}
+.moreKnowledge dl{ margin-left:18px; margin-right:18px;}
+.moreKnowledge dl dt{ color:#ff7d00;}
+.moreKnowledge dl dd{ line-height:24px;}
+.moreKnowledge dl dd a{ color:#ff7d00}
+
+
+
+.inde5{ background-color:#f3f3f3; width:1038px; height:476px; position:relative; margin:0 auto; }
+.inde5-div{ height:476px;}
+.inde5 h2{  font-size:24px; color:#025bc9 ;   position: absolute;
+  top: 35px;
+  left: 0px; display:block; padding-bottom:8px;}
+.yuyueText{ width:554px; position: absolute;
+  top: 73px;
+  left: 0px; }
+.yuyueText dt{ margin-top:5px; font-size:41px; color:#333333; display:block; padding-bottom:10px; padding-top:8px;}
+.yuyueText dd{ width:341px; color:#666; font-size:17px}
+.yuyueText dd strong{ margin-bottom:3px; font-size:17px; color:#333333; display: inline-block; }
+
+#form{ position: absolute;
+  top: 150px;
+  left: 4px;}
+#form input.name, #form input.phone{ margin-right:9px; width:180px; height:30px;}
+.companyArea { margin-top:13px;}
+.companyArea input{ width:419px; height:29px;}
+.messMain{margin-top:6px;  height:80px; width:417px; display: inline-block}
+.message{ vertical-align: top}
+.submit{ margin-left:51px;  margin-top:26px; width:177px; height:49px; background-color:#e95c01; cursor: pointer; border:none}
+.tijiao{ width:488px;}
+.tijiao dd{ margin-top:8px; color:#cf2302}
+
+.ind5-right-text{ position:absolute; top:47px; left:717px;}
+.ind5-right-text .p1{ color:#ee4010; text-indent:1em; font-size:20px;}
+.ind5-right-text .p2{ margin-top:11px;color:#333333; font-size:18px;}
+
+.mac-compputer{ position: absolute; left:570px; top:128px; }
+.iphone{ position: absolute; left:871px;; top:162px; }

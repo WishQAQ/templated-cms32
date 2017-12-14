@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:field name='keywords'/}" />
+    <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+    <link href="/dedemao/css/qe.css" rel="stylesheet" media="screen" type="text/css" />
+    <link href="/dedemao/css/article.css" rel="stylesheet" media="screen" type="text/css" />
+    <link href="/dedemao/css/slider.css" rel="stylesheet" media="screen" type="text/css" />
+</head>
+
+<body>
+{dede:include filename="head.htm"/}
+
+<div  class="container center">
+
+<style>
+    .aric .lefts dd a.h{ background:#f1f2f3 !important;}
+    .aric .nrong .neirong li{ font-size:14px; font-weight:normal !important; line-height:25px; height:240px; overflow: hidden}
+    .aric .nrong .neirong li p{ padding:0 10px;}
+    .aric .nrong .neirong li i{ height:177px !important; margin-bottom:8px !important;}
+</style>
+
+<div id="con">
+<div class="path">
+    <span></span>当前位置： {dede:field name='position'/}</div>
+<div class="aric">
+
+
+
+
+<div class="nrong" style="width:1198px;">
+
+<h1>三网合一</h1>
+
+
+
+<div class="main_left_yanban">
+
+
+    {dede:list pagesize='40'}
+
+    <div class="main_left_yanban_box">
+        <div class="pic"><a href="[field:arcurl/]" title="[field:fulltitle/]" target="_blank"><img src="[field:litpic/]" width="225" ></a></div>
+        <div class="title"><a href="[field:arcurl/]" title="[field:fulltitle/]" target="_blank">[field:title/]</a></div>
+        <div class="hangye"><a href="[field:pc/]" target="_blank">PC站演示</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="[field:mobile/]" target="_blank">手机微信站演示</a></div>
+        <div class="bianhao">样版编号：<span>[field:shorttitle/]</span></div>
+        <div class="yanshi"></div>
+    </div>
+    {/dede:list}
+
+
+
+</div>
+
+
+<div style="clear: both;"></div>
+</div>
+</div>
+
+
+
+<div class="clear"></div>
+</div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

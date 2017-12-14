@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#fff !important;}
+ul,li{ list-style:none;}
+.fl {
+	FLOAT: left
+}
+.fr {
+	FLOAT: right
+}
+.pa {
+	POSITION: absolute
+}
+.pr {
+	POSITION: relative
+}
+
+.banner2{ height:452px;}
+.banner2 a{ display:block; width:100%; height:452px; background:url(../images/ban1.jpg) no-repeat center top;}
+
+
+.banner3{ height:649px; margin-top:20px;}
+.banner3 a{ display:block; width:100%; height:649px; background:url(../images/shouduan.jpg) no-repeat center top;}
+
+.banner4{ height:536px; }
+.banner4 a{ display:block; width:100%; height:536px; background:url(../images/youshi.jpg) no-repeat center top;}
+
+
+
+.content {
+	MARGIN: 0px auto; WIDTH: 1003px
+}
+.sd {
+	LINE-HEIGHT: 35px; FONT-FAMILY: "微软雅黑"; HEIGHT: 450px; COLOR: #2e2e2e; FONT-SIZE: 17px; OVERFLOW: hidden; PADDING-TOP: 30px
+}
+.sd_p {
+	WIDTH: 563px; OVERFLOW: hidden
+}
+.sd_w {
+	PADDING-LEFT: 52px; WIDTH: 343px; OVERFLOW: hidden
+}
+.sd_w H3 {
+	LINE-HEIGHT: 36px; HEIGHT: 76px; FONT-SIZE: 27px
+}
+.sd_w H3 SPAN {
+	COLOR: #f08300; FONT-SIZE: 39px
+}
+.sd_w P {
+	HEIGHT: 228px; OVERFLOW: hidden
+}
+.sd_w P EM {
+	FONT-STYLE: italic; COLOR: #f08300; FONT-SIZE: 31px; FONT-WEIGHT: bold
+}
+.sd_w SPAN {
+	COLOR: #f08300; FONT-SIZE: 27px
+}
+.wh {
+	BACKGROUND: url(../images/whbg.jpg) no-repeat center 50%; HEIGHT: 453px; OVERFLOW: hidden
+}
+.wh_c {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 6px; WIDTH: 474px; PADDING-RIGHT: 0px; FONT-SIZE: 16px; PADDING-TOP: 49px
+}
+.wh_c H3 {
+	LINE-HEIGHT: 72px; HEIGHT: 72px; FONT-SIZE: 36px
+}
+.wh_c H3 {
+	FONT-FAMILY: "微软雅黑"; HEIGHT: 70px; OVERFLOW: hidden
+}
+.wh_w {
+	FONT-FAMILY: "微软雅黑"; HEIGHT: 70px; OVERFLOW: hidden
+}
+.wh_w {
+	HEIGHT: 70px; FONT-SIZE: 18px; OVERFLOW: hidden
+}
+.wh_c P {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; WIDTH: 363px; PADDING-RIGHT: 20px; DISPLAY: block; HEIGHT: 102px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.hc {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 607px; PADDING-TOP: 61px
+}
+.hc H2 {
+	HEIGHT: 134px
+}
+.hc_c {
+	PADDING-BOTTOM: 56px; LINE-HEIGHT: 26px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: url(../images/hcbg.jpg) no-repeat; HEIGHT: 361px; FONT-SIZE: 16px; OVERFLOW: hidden; PADDING-TOP: 56px
+}
+.hc_c LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 26px; WIDTH: 149px; PADDING-RIGHT: 24px; FLOAT: left; PADDING-TOP: 0px
+}
+.hc_c LI IMG {
+	WIDTH: 149px; DISPLAY: block; HEIGHT: 142px
+}
+.hc_c LI P {
+	DISPLAY: block; PADDING-TOP: 12px
+}
+.h_gg {
+	LINE-HEIGHT: 25px; DISPLAY: block; FONT-FAMILY: "微软雅黑"; HEIGHT: 129px; CLEAR: both; FONT-SIZE: 18px; OVERFLOW: hidden
+}
+.h_gg IMG {
+	WIDTH: 1003px; HEIGHT: 129px
+}
+.h_gg B {
+	FONT-FAMILY: Arial; FONT-SIZE: 28px
+}
+.gg01 {
+	TOP: 38px; LEFT: 463px
+}
+/*资讯*/
+.sjnews{ padding-top:50px; margin-top:20px; background:url(../images/sjnews.jpg) no-repeat center top;}
+
+.sjnews UL {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; OVERFLOW: hidden; PADDING-TOP: 6px; HEIGHT: 1%
+}
+.sjnews UL LI {
+	DISPLAY: block; FONT-SIZE: 14px; FLOAT: left; OVERFLOW: hidden; WIDTH: 33.3%; TEXT-INDENT: 12px; LINE-HEIGHT: 24px; HEIGHT: 24px
+}
+
+/*需要什么样*/
+.xuyao{ background:url(../images/xuyaobg.jpg) center center repeat; margin-top:20px;}
+.my{ height:876px; padding:53px 0 18px; width: 960px;
+margin: 0 auto;
+overflow: hidden; overflow:hidden; line-height:25px; color:#000; font-size:15px;}
+.mytil{ height:111px; text-align:center}
+.my_j{ height:457px; overflow:hidden; float:left; clear:both; background:url(../images/ge01.jpg) no-repeat 474px 20px;}
+.my_j dl{ width:415px; float:left; height:168px; background:url(../images/my_line.jpg) no-repeat bottom center; padding:27px 70px 2px 0;}
+.my_j dl.myl1{ padding-left:58px; padding-right:0;}
+.my_j dt{ width:194px; float:left; background:url(../images/ge04.jpg) no-repeat 0 134px; padding-bottom:11px;}
+.my_j dt img{ width:175px; height:130px; border:solid 1px #bbb; padding:1px;}
+.my_j dd{ width:221px; float:left;}
+.my_j dd h3{ line-height:30px; height:58px; color:#f08300;font-family:"微软雅黑"; font-size:22px; font-weight:normal}
+.my_j dd p{ padding-top:8px; height:80px; overflow:hidden}
+.my_y dt{ width:646px; float:left}
+.my_y dt img{ width:626px; height:286px;}
+.my_y dd{ width:314px; float:left}
+.my_y dd h3{ height:90px; padding-top:12px;}
+.my_y dd p{ clear:both; background:url(../images/my_line.jpg) no-repeat top; padding-top:18px;}
+
+.h_gg{width: 960px;
+margin: 20px auto 0; display:block; clear:both; height:129px;font-family:"微软雅黑"; font-size:18px;line-height:25px; overflow:hidden}
+.h_gg img{ width:960px; height:129px;}
+.h_gg b{ font-size:28px; font-family:Arial;}
+.ge{width: 960px;
+margin: 0 auto;}
+.gg02 {
+top: 74px;
+left: 270px;
+}
+.gg03 {
+top: 70px;
+left: 300px;
+}
+
+/*如何做*/
+.how{ background:url(http://img.nsw88.com/Skins/Default/Img/Shouji/Index/howbg.jpg) no-repeat center; height:492px;}
+.how_l{ width:465px; line-height:30px; color:#000;}
+.how_t{ height:198px; padding-top:50px; background:url(http://img.nsw88.com/Skins/Default/Img/Shouji/Index/ho_ge.jpg) no-repeat 0 bottom; color:#f08300;font-family:"微软雅黑"; font-size:22px; line-height:44px; font-weight:bold;}
+.how_w{ padding-top:16px; font-size:15px;}
+.how_r{ width:493px; padding-top:36px;}
+.how_r p{font-family:"微软雅黑"; font-size:22px; line-height:39px; top:72px; left:152px;}
